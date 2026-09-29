@@ -1,7 +1,6 @@
 from functools import partial
 import time
 import os
-import fire
 import tqdm
 import json
 import random
@@ -291,4 +290,4 @@ def main(dataset_name='bbaaaa/iwslt14-de-en-preprocess',
 
 
 if __name__ == '__main__':
-    fire.Fire(main)
+    main()
